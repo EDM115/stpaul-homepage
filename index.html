@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html prefix="og: https://ogp.me/ns/website#">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta property="og:title" content="Moteurs de recherche - Saint Paul"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://www.stpaul-stgeorges.fr/"/>
+<meta property="og:image" content="https://i.imgur.com/FZXcSyw.png"/>
+<meta property="og:description" content="Choisissez votre moteur de recherche"/>
+<meta property="og:locale" content="fr_FR"/>
+<title>Moteurs de recherche - Saint Paul</title>
+<style>
+body {
+    background-color: #CACACA;
+    /* background-image:url("https://i.imgur.com/pdQbhVN.png");*/
+    background-image:url("https://i.imgur.com/djRmApe.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+td {
+  font-size: 1.25em;
+}
+.center {
+    /*text-align: center;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    display: block;
+}
+.higher {
+    align-items: stretch;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    vertical-align: center;
+    display: block;
+    flex: 16.666667%;
+    padding: 5px;
+    float: left;
+    object-fit: scale-down;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bar {
+    position: sticky;
+    top: 5px;
+    display: flex;
+}
+</style>
+<link rel="icon" type="image/png" href="https://i.imgur.com/FZXcSyw.png"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/material-components-web/4.0.0/material-components-web.min.css" rel="stylesheet">
+<link href="https://cdn.datatables.net/1.11.3/css/dataTables.material.min.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.11.3/js/dataTables.material.min.js"></script>
+<script>import {MDCDataTable} from '@material/data-table';
+const dataTable = new MDCDataTable(document.querySelector('.mdc-data-table'));</script>
+<script>
+$(document).ready(function() {
+    $('#example').DataTable( {
+        autoWidth: false,
+        columnDefs: [
+            {
+                targets: ['_all'],
+                className: 'mdc-data-table__cell'
+            }
+        ]
+    } );
+} );
+</script>
+</head>
+<body>
+<table class="bar" style="background-color:rgba(255, 255, 255, 0.2);">
+    <tbody>
+        <tr>
+            <td>
+                <a href="https://www.saintpaul56.org/prome2018/" target="_blank"><img alt="Accéder à la page de connexion de l'intranet du lycée" src="https://i.imgur.com/FZXcSyw.png" align="middle" width="30%" border="0"></a>
+            </td>
+            <div>
+                <td class="higher">
+                    <a href="https://www.ecoledirecte.com/login" target="_blank"><img alt="Ecole Directe" width="70%" src="https://i.imgur.com/7UaFsnM.png" align="middle"></a>
+                </td>
+                <td class="higher">
+                    <a href="https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2fteams.office.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=1&msaredir=1&client-request-id=95b996c6-fd1a-bd03-025d-f7f7aaaa4f36&protectedtoken=true&claims=%7b%22id_token%22%3a%7b%22xms_cc%22%3a%7b%22values%22%3a%5b%22CP1%22%5d%7d%7d%7d&domain_hint=saintpaul56.org&nonce=637819991928998211.890cc640-fe26-4261-8cbe-5e90046aab8b&state=DctNDoQgDEBhcI7hGdAWsbaLiWcpBI2Jf3HGeH1ZfG_3rDHmU1SFhRIzUDcwigiKZxH2iA0LpEQB3JQ9ueAJHaeYXZ8FIJBq5GjLW7fHo-14ZV2370-X_X_qvfbUHNf8Ag" target="_blank"><img alt="Teams" width="100%" src="https://i.imgur.com/2a9u8D2.png" align="middle"></a> <!--https://i.imgur.com/yCpv8ha.png-->
+                </td>
+                <td class="higher">
+                    <a href="https://outlook.office.com/owa/?realm=saintpaul56.org" target="_blank"><img alt="Office 365" width="100%" src="https://i.imgur.com/I0Vk5kO.png" align="middle"></a>
+                </td>
+                <td class="higher">
+                    <a href="https://support.saintpaul56.org/" target="_blank"><img alt="Support technique du lycée" width="70%" src="https://i.imgur.com/MS5PUmm.png" align="middle"></a>
+                </td>
+                <td class="higher">
+                    <a href="https://visa.saintpaul56.org/" target="_blank"><img alt="VISA, le webmédia du campus" width="100%" src="https://i.imgur.com/lD9PFLq.png" align="middle"></a>
+                </td>
+                <td class="higher">
+                    <a href="http://laviedeslettres.saintpaul56.org/" target="_blank"><img alt="La vie des lettres" width="100%" src="https://i.imgur.com/8tfDouU.jpeg" align="middle"></a>
+                </td>
+                <td class="higher">
+                    <a href="https://enfance-et-partage.org/300-000-mercis-a-lvl-notre-fidele-et-precieux-partenaire-depuis-10-ans/" target="_blank"><img alt="Opération cartouche" width="100%" src="https://i.imgur.com/2ejcPXU.png" align="middle"></a>
+                </td>
+            </div>
+        </tr>
+    </tbody>
+</table>
+<table border="">
+    <tbody>
+        <tr>
+            <td width="33%" height="67%"><p align="center"><a href="http://www.saintpaul56.org/moteur/countclick1.php?url=https://www.qwant.com/" target="_blank"><img src="https://i.imgur.com/oxBQpOq.png" width="80%" height="80%" border="0"></a></p></td>
+            <td width="33%" height="67%"><p align="center"><a href="http://www.saintpaul56.org/moteur/countclick2.php?url=https://www.ecosia.org" target="_blank"><img src="https://i.imgur.com/aBIGgAO.png" width="80%" height="80%" border="0"></a></p></td>
+            <td width="33%" height="67%"><p align="center"><a href="http://www.saintpaul56.org/moteur/countclick3.php?url=http://www.google.fr" target="_blank"><img src="https://i.imgur.com/fQLi635.png" width="80%" height="80%" border="0"></a></p></td>
+        </tr>
+        <tr>
+            <td width="33%" align="center" height="33%"><p>Qwant est un <b>moteur de recherche français</b>. Il <b>annonce ne pas tracer ses utilisateurs</b> afin de garantir la vie privée, et se veut neutre dans l'affichage des résultats</p></td>
+            <td width="33%" align="center" height="33%"><p>Ecosia est un <b>moteur de recherche caritatif allemand</b>. Il reverse 80 % de ses bénéfices à <b>un programme de reforestation</b> présent partout dans le monde</p></td>
+            <td width="33%" align="center" height="33%"><p>Google est le <b>moteur de recherche sur le Web le plus utilisé au monde</b>. Le nom Google vient du nombre Gogol (10<sup>100</sup>)</p></td>
+        </tr>
+    </tbody>
+</table>
+<div>
+<table width="40%" class="boxtitle">
+	<tbody>
+        <tr>
+		    <th align="left">
+		        <b><font size="1">BON ANNIVERSAIRE À :</font></b>
+		    </th>
+		</tr>
+	</tbody>
+</table>
+<table width="30%" class="boxcontent">
+	<tbody>
+        <tr align="center">
+		    <td bgcolor="transparent">
+                <marquee onmouseover="this.stop()" onmouseout="this.start()" scrollamount="2" scrolldelay="80" direction="up" width="240" height="40" align="center">
+			    <font size="2">Volodymyr Zelensky le giga chad<br>Quelqu'un de connu<br>Pas moi<br>Jean-Eudes Nguyen<br>HTML coder<br>Cloudflare<br>Fill value<br>😪<br></font></marquee>
+		    </td>
+		</tr>
+	</tbody>
+</table>
+<br>
+</div>
+<table id="example" class="mdl-data-table" style="width:95%">
+        <thead>
+            <tr>
+                <th>Logo du moteur</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><p align="center"><a href="http://www.saintpaul56.org/moteur/countclick1.php?url=https://www.qwant.com/" target="_blank"><img src="https://i.imgur.com/oxBQpOq.png" width="80%" height="80%" border="0"></a></p></td>
+                <td><p>Qwant est un <b>moteur de recherche français</b>. Il <b>annonce ne pas tracer ses utilisateurs</b> afin de garantir la vie privée, et se veut neutre dans l'affichage des résultats</p></td>
+            </tr>
+            <tr>
+                <td><p align="center"><a href="http://www.saintpaul56.org/moteur/countclick2.php?url=https://www.ecosia.org" target="_blank"><img src="https://i.imgur.com/aBIGgAO.png" width="80%" height="80%" border="0"></a></p></td>
+                <td><p>Ecosia est un <b>moteur de recherche caritatif allemand</b>. Il reverse 80 % de ses bénéfices à <b>un programme de reforestation</b> présent partout dans le monde</p></td>
+            </tr>
+            <tr>
+                <td><p align="center"><a href="http://www.saintpaul56.org/moteur/countclick3.php?url=http://www.google.fr" target="_blank"><img src="https://i.imgur.com/fQLi635.png" width="80%" height="80%" border="0"></a></p></td>
+                <td><p>Google est le <b>moteur de recherche sur le Web le plus utilisé au monde</b>. Le nom Google vient du nombre Gogol (10<sup>100</sup>)</p></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Logo du moteur</th>
+                <th>Description</th>
+            </tr>
+        </tfoot>
+    </table>
+<br>
+</body>
+</html>
