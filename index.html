@@ -4,7 +4,9 @@
         
         <title>Moteurs de recherche - Saint Paul</title>
 
+
         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
             body {
                 background-color : #000000 ;
@@ -13,6 +15,11 @@
                 background-repeat : no-repeat ;
                 background-attachment : fixed ;
                 color : white ;
+            }
+
+            p {
+	            font-family : 'Varela Round' , sans-serif ;
+                text-align : right ;
             }
 
             .topnav {
@@ -30,8 +37,8 @@
                 position : absolute ;
 	            z-index : 900 ;
                 padding: 10px ;
-                width: 200px ;
-                height: 200px ;
+                width: 220px ;
+                height: 220px ;
 	            top : 0 ;
                 left : 0 ;
             }
@@ -39,7 +46,7 @@
             .buttons-tab {
                 position: absolute ;
                 right : 0 ;
-                width : 50% ;
+                width : 30% ;
             }
 
             .buttons {
@@ -52,9 +59,11 @@
 
             .browsers-tab {
                 position : absolute ;
-                padding-top: 20%;
+                padding-top: 10%;
+                padding-right: 3%;
+                right : 0 ;
                 align-items : center ;
-                width : 99% ;
+                width : 40% ;
             }
 
             .anniversaires {
@@ -76,42 +85,42 @@
         <nav class="topnav">
 
             <a href="https://www.saintpaul56.org/prome2018/" target="_blank">
-                <img class="sp" alt="Accéder à la page de connexion de l'intranet du lycée" src="https://i.imgur.com/FZXcSyw.png">
+                <img class="sp" alt="Accéder à la page de connexion de l'intranet du lycée" src="./images/logo_saint-paul.png">
             </a>
 
             <table class="buttons-tab">
 
                 <td>
                     <a href="https://www.ecoledirecte.com/login" target="_blank">
-                        <img class="buttons" alt="Ecole Directe" width="70%" src="https://i.imgur.com/7UaFsnM.png">
+                        <img class="buttons" alt="Ecole Directe" src="./images/logo_ecole_directe.png">
                     </a>
                 </td>
 
 
                 <td>
                     <a href="https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2fteams.office.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=1&msaredir=1&client-request-id=95b996c6-fd1a-bd03-025d-f7f7aaaa4f36&protectedtoken=true&claims=%7b%22id_token%22%3a%7b%22xms_cc%22%3a%7b%22values%22%3a%5b%22CP1%22%5d%7d%7d%7d&domain_hint=saintpaul56.org&nonce=637819991928998211.890cc640-fe26-4261-8cbe-5e90046aab8b&state=DctNDoQgDEBhcI7hGdAWsbaLiWcpBI2Jf3HGeH1ZfG_3rDHmU1SFhRIzUDcwigiKZxH2iA0LpEQB3JQ9ueAJHaeYXZ8FIJBq5GjLW7fHo-14ZV2370-X_X_qvfbUHNf8Ag" target="_blank">
-                        <img class="buttons" alt="Teams" width="100%" src="https://i.imgur.com/2a9u8D2.png">
+                        <img class="buttons" alt="Teams" src="./images/logo_teams.png">
                     </a>
                 </td>
 
 
                 <td>
                     <a href="https://outlook.office.com/owa/?realm=saintpaul56.org" target="_blank">
-                        <img class="buttons" alt="Office 365" width="100%" src="https://i.imgur.com/I0Vk5kO.png">
-                    </a>
-                </td>
-
-
-                <td>
-                    <a href="https://support.saintpaul56.org/" target="_blank">
-                        <img class="buttons" alt="Support technique du lycée" width="70%" src="https://i.imgur.com/MS5PUmm.png">
+                        <img class="buttons" alt="Office 365" src="./images/logo_office.png">
                     </a>
                 </td>
 
 
                 <td>
                     <a href="https://visa.saintpaul56.org/" target="_blank">
-                        <img class="buttons" alt="VISA, le webmédia du campus" width="100%" src="https://i.imgur.com/lD9PFLq.png">
+                        <img class="buttons" alt="VISA, le webmédia du campus" src="./images/logo_visa_saint-paul.png">
+                    </a>
+                </td>
+
+
+                <!-- <td>
+                    <a href="https://support.saintpaul56.org/" target="_blank">
+                        <img class="buttons" alt="Support technique du lycée" width="70%" src="./images/logo_support.png">
                     </a>
                 </td>
 
@@ -127,14 +136,34 @@
                     <a href="https://cutt.ly/cartouches-enfance-partage" target="_blank">
                         <img class="buttons" alt="Opération cartouche" width="100%" src="https://i.imgur.com/2ejcPXU.png">
                     </a>
-                </td>
+                </td> -->
 
             </table>
 
         </nav>
-
+        
 
         <table class="browsers-tab">
+
+            <tr>
+                <td width="33%" align="center" height="33%"><p>Qwant est un <b>moteur de recherche français</b>. Il <b>annonce ne pas tracer ses utilisateurs</b> afin de garantir la vie privée, et se veut neutre dans l'affichage des résultats</p></td>
+                <td width="33%" height="67%"><p align="center"><a href="http://www.saintpaul56.org/moteur/countclick1.php?url=https://www.qwant.com/" target="_blank"><img src="https://i.imgur.com/oxBQpOq.png" width="80%" height="80%" border="0"></a></p></td>
+            </tr>
+
+            <tr>
+                <td width="33%" align="center" height="33%"><p>Ecosia est un <b>moteur de recherche caritatif allemand</b>. Il reverse 80 % de ses bénéfices à <b>un programme de reforestation</b> présent partout dans le monde</p></td>
+                <td width="33%" height="67%"><p align="center"><a href="http://www.saintpaul56.org/moteur/countclick2.php?url=https://www.ecosia.org" target="_blank"><img src="https://i.imgur.com/aBIGgAO.png" width="80%" height="80%" border="0"></a></p></td>
+            </tr>
+
+            <tr>
+                <td width="33%" align="center" height="33%"><p>Google est le <b>moteur de recherche sur le Web le plus utilisé au monde</b>. Le nom Google vient du nombre Gogol (10<sup>100</sup>)</p></td>
+                <td width="33%" height="67%"><p align="center"><a href="http://www.saintpaul56.org/moteur/countclick3.php?url=http://www.google.fr" target="_blank"><img src="https://i.imgur.com/fQLi635.png" width="80%" height="80%" border="0"></a></p></td>
+            </tr>
+
+        </table>
+
+
+<!--         <table class="browsers-tab">
 
             <tr>
                 <td width="33%" height="67%"><p align="center"><a href="http://www.saintpaul56.org/moteur/countclick1.php?url=https://www.qwant.com/" target="_blank"><img src="https://i.imgur.com/oxBQpOq.png" width="80%" height="80%" border="0"></a></p></td>
@@ -149,7 +178,7 @@
                 <td width="33%" align="center" height="33%"><p>Google est le <b>moteur de recherche sur le Web le plus utilisé au monde</b>. Le nom Google vient du nombre Gogol (10<sup>100</sup>)</p></td>
             </tr>
 
-        </table>
+        </table> -->
 
 
         <div class="anniversaires">
