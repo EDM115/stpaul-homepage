@@ -10,3 +10,4 @@ Homepage for my school 🙂
 + [ ] Google first
 + [ ] Add other useful shortcuts
 + [ ] Very probably other things… 😪
++ [ ] Add `https://i.imgur.com/TPZ7xux.gif` as preload
