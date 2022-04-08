@@ -104,16 +104,18 @@ body.loadingy {
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 <script>
+var test = function() {
+	window.location = (""+window.location).replace(/#[A-Za-z0-9_]*$/,'')+"#center";
+};
+test();
+</script>
+<script>
 var body = document.getElementsByTagName('body')[0];
 var removeLoading = function() {
 	setTimeout(function() {
 		body.className = body.className.replace("loadingy", "");
 	}, 3000);
 };
-var test = function() {
-	window.location = (""+window.location).replace(/#[A-Za-z0-9_]*$/,'')+"#center";
-};
-test();
 removeLoading();
 </script>
 </head>
