@@ -82,9 +82,7 @@ td {
   position: absolute;
   top: 38%;
   left: 50%;
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 a:hover {
@@ -95,10 +93,8 @@ a:hover {
 }
 body.loadingy {
 	background: #3333337a url("https://i.imgur.com/dJej7V8.gif") no-repeat 50% 50%;
-	-webkit-transition: background-color 0;
 	transition: background-color 0;
 	opacity: 0;
-	-webkit-transition: opacity 0;
 	transition: opacity 0;
 }
 </style>
@@ -110,7 +106,7 @@ body.loadingy {
 var body = document.getElementsByTagName('body')[0];
 var removeLoading = function() {
 	setTimeout(function() {
-		body.className = body.className.replace(/loading/, '');
+		body.className = body.className.replace(/loadingy/, '');
 	}, 3000);
 };
 var test = function() {
